@@ -1,0 +1,10 @@
+INSERT INTO burgers (burger_name) VALUES ('Original Veggie Burger');
+INSERT INTO burgers (burger_name) VALUES ('Black Bean Chipotle Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Cheeseburger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Spicy Chicken Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Original Chicken Burger', true);
+INSERT INTO burgers (burger_name) VALUES ('Turkey Burger');
+INSERT INTO burgers (burger_name) VALUES ('Original Chik Burger');
+INSERT INTO burgers (burger_name) VALUES ('Spicy Chik Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Mushroom Risotto Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('California Veggie Burger', true);

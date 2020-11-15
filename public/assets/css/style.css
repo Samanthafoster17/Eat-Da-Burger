@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+  color: red;
+}
+
+ul {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+img{
+  padding-left: 80px;
+}
+
+#waiting{
+  float: left;
+  padding-left: 20px;
+  margin: 25px;
+}
+
+#ate{
+  float: right;
+  padding-right: 20px;
+  margin: 25px;
+  
+}
+#ateList{
+  opacity: 45%;
+}
+
+#add{
+  align-self: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+button{
+  border-radius: 45%;
+  background-color: lightgreen;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: red;
+  color: white;
+}
