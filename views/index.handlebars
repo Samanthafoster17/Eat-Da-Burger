@@ -9,7 +9,9 @@
   {{#each burgers}}
   {{#unless devoured}}
   <strong> {{this.id}} : {{this.burger_name}} </strong>
-  <button type="button" class="change-devour" data-id="{{this.id}}" data-newDevoured="{{devour}}">Devour</button>
+  <br>
+  <button type="button" class="devour-burger" data-id="{{this.id}}">Devour</button>
+   <button type="button" class="delete" data-id="{{this.id}}">Delete</button>
   <hr>
   {{/unless}}
   {{/each}}
@@ -23,6 +25,8 @@
   {{#each burgers}}
   {{#if devoured}}
   <strong> {{this.id}} : {{this.burger_name}} </strong>
+  <br>
+  <button type="button" class="eat-again" data-id="{{this.id}}">Want More</button>
   <button type="button" class="delete" data-id="{{this.id}}">Delete</button>
   <hr>
   {{/if}}
@@ -31,7 +35,7 @@
 </div>
 
 <div id="add" style="text-align: center;">
-<h2>Add a Burger</h2>
+<h2>Add New Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -40,6 +44,6 @@
   </div>
 
   <div class="form-group">
-<button type="submit">Add A Burger</button>
+<button type="submit">Add Burger</button>
 </form>
 </div>

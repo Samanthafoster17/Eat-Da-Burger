@@ -1,36 +1,48 @@
 body{
   background-color: black;
-  color: red;
+  color: rgba(255, 0, 0, 0.774);
 }
 
 ul {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #e4cfb5;
 }
 
 img{
-  padding-left: 80px;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 5%;
+  padding-bottom: 0%;
+  width: 30%;
 }
 
 #waiting{
+  width: 35%;
+  position: relative;
   float: left;
-  padding-left: 20px;
-  margin: 25px;
+  padding-left: 15px;
+  margin: 15px;
 }
 
 #ate{
+  width: 35%;
+  position: relative;
   float: right;
-  padding-right: 20px;
-  margin: 25px;
+  padding-right: 15px;
+  margin: 15px;
   
 }
 #ateList{
   opacity: 45%;
 }
 
+
+
 #add{
-  align-self: center;
+  align-content: center;
+  position: relative;
+  width: 100%;
 }
 
 .label {
@@ -40,7 +52,6 @@ img{
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
@@ -48,13 +59,27 @@ img{
 }
 
 button{
-  border-radius: 45%;
+  border-radius: 55%;
   background-color: lightgreen;
-  padding: 5px;
+  padding: 6px;
   cursor: pointer;
 }
 
 button:hover{
-  background-color: red;
+  background-color:black;
   color: white;
+}
+
+.delete{
+  background-color:red;
+}
+.delete:hover{
+  background-color:black;
+}
+h1{
+  font-size: 50px;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+
 }
