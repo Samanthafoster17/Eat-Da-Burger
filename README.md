@@ -17,6 +17,10 @@
 
 - [Questions](#questions) 
 
+- [Image](#Image)
+
+- [Link](#Link)
+
 
 ## Description
 Displays a list of burgers waiting to be devoured and a list of devoured burgers, users may add new burgers, devour burgers, add their favorite burgers back to the waiting list to devour them again or delete their not so favorite burgers. 
@@ -43,8 +47,8 @@ You may view GitHub profile here:
 -[Github Profile](https://github.com/Samanthafoster17).
 
 
-## Image of Site
+## Image
 ![image](https://user-images.githubusercontent.com/68489432/99195800-05a06300-2756-11eb-9c25-e32b95f5c5e6.png)
 
-## Link To Site
+## Link
 https://quiet-hollows-94439.herokuapp.com/
